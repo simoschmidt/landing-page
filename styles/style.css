@@ -82,10 +82,10 @@ ul {
 .second_section {
   display: flex;
   flex-direction: column;
-  margin: 0px 30vh;
-  padding: 30px;
+  margin: 50px 30vh;
   height: 35vh;
   justify-content: space-evenly;
+  gap: 30px;
 }
 
 .second_section div {
@@ -96,7 +96,6 @@ ul {
   font-size: 36px;
   font-weight: bolder;
   color: #1F2937;
-  padding: 30px;
 }
 
 .second_section_images {
@@ -121,4 +120,29 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.third_section_background {
+  background-color: #E5E7EB;
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.third_section {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30vh;
+  height: 35vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.third_section p {
+  max-width: 780px;
+}
+
+.third_section div {
+  align-self: end;
+  font-weight: bolder;
 }
