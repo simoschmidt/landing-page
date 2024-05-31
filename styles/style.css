@@ -146,3 +146,39 @@ ul {
   align-self: end;
   font-weight: bolder;
 }
+
+.fourth_section_background {
+  margin: 0px 30vh;
+}
+
+.fourth_section {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15vh 0px;
+  padding: 45px 15px;
+}
+
+.fourth_section_left {
+  display: flex;
+  flex-direction: column;
+}
+
+.fourth_section_left div {
+  font-weight: bolder;
+}
+
+.fourth_section_left p {
+  margin: 0px;
+}
+
+.fourth_section button {
+  border: 2px solid #F9FAF8;
+  border-radius: 7px;
+  color: #F9FAF8;
+  background-color: #3882F6;
+  font-weight: bold;
+  padding: 5px 20px;
+}
