@@ -154,7 +154,7 @@ p.callToAction_text,
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  margin-left: 100px;
+  margin-left: 150px;
 }
 
 .callToAction_right {
@@ -166,4 +166,29 @@ p.callToAction_text,
 
 .callToAction button {
   border: solid 2px #E5E7EB
+}
+
+.quote_main {
+  display: flex;
+  flex-direction: column;
+  padding: 0 12.5%;
+  height: 40vh;
+  justify-content: center;
+  background-color: #E5E7EB;
+}
+
+.author {
+  text-align: end;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.quote  {
+  padding: 0 15%;
+}
+
+.quote_content {
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
 }
